@@ -1,0 +1,29 @@
+# rime settings
+# encoding: utf-8
+# author: 空山明月
+# modify: 中书君
+# time: 2026-02-17 01:07:01.272
+
+patch:
+  key_binder/bindings/+: 
+    - {accept: semicolon, send: 2, when: has_menu}
+    - {accept: apostrophe, send: 3, when: has_menu}
+  speller/auto_select: false
+  speller/delimiter: " , . `"
+  switches/+: 
+    - {name: show_es, reset: 1}
+    - {name: zh_trad, reset: 0}
+    - {name: new_spelling, reset: 1}
+    - {name: new_hide_pinyin, reset: 0}
+    - {name: GB2312, reset: 0}
+    - {name: single_char, reset: 0}
+    - {name: full_shape, reset: 0}
+  translator/enable_completion: true
+  translator/enable_encoder: true
+  translator/enable_sentence: true
+  translator/enable_user_dict: true
+  translator/encode_commit_history: true
+  translator/max_phrase_length: 99
+  translator/preedit_format/+: 
+    - 'xform/^([a-z]*)$/$1\t〈\U$1\E〉/'
+    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXY|工子又大月土王目水日口田山已火之金白木禾立女人幺言|"

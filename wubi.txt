@@ -2,16 +2,16 @@
 #@/db_name	wubi
 #@/db_type	tabledb
 #@/rime_version	1.13.1
-#@/tick	206
+#@/tick	295
 ！	;a	2
 ）	;c	4
 芙芙池子	aaib	2
 艾莉丝	aaxx	4
 芙芙	afaf	2
 䕀	affw	2
-芙	afw	8
+芙	afw	12
 莱	ago	2
-芙宁娜	apvv	6
+芙宁娜	apvv	8
 艾尔海森	aqis	4
 艾	aqu	2
 艾	ar	2
@@ -21,14 +21,19 @@
 茜特拉莉	atra	2
 花	awx	2
 子	b	2
+际	bf	2
+陆	bgb	2
 骑	cgdk	4
 骑士	cgfg	2
 巴	cnh	2
 迈巴赫	dcfo	2
-还	dh	4
+大	dd	2
+还	dh	6
 迈	dnp	2
+达	dp	2
 龙王	dxgg	8
 月	eee	2
+塔	faw	2
 需要	fdsv	2
 士	fghg	4
 赫	fof	2
@@ -36,73 +41,106 @@
 玛薇卡	gahh	2
 开发	gant	2
 玛	gcg	2
+玩	gfq	2
 五	gg	2
+理	gjf	2
 瑞	gmd	4
 玘	gnn	2
+瓦	gnn	2
 班尼特	gntr	12
+万	gq	2
 五笔输入	gtlt	2
 班	gyt	4
-上	h	2
+上	h	4
 卡	hh	4
+战	hka	6
 池	ib	2
 池子	ibbb	6
 法	if	2
+水	ii	6
+水	iiii	4
 海	itx	2
-没	iw	4
-啊	kb	2
+没	iw	6
+注释	iyto	2
+里	jf	2
+啊	kb	4
 吗	kcg	2
 吃	kt	2
 团	lf	2
-车	lg	2
+车	lg	4
+国	lgy	2
 田	llll	2
 田宝	llpg	12
 输入法	ltif	2
 输	lwg	2
+丹	my	4
+怪	nc	2
+怪	ncf	6
+己	nng	2
 尼	nx	4
 火	o	2
 火花骑士	oacf	2
+精	oge	10
+精怪	ognc	2
 火	oo	2
 米	oy	2
 㝋	pbj	2
 字根	pbsv	4
-宝	pgy	2
-宁	ps	4
-我	q	4
+宝	pgy	6
+神里绫华	pjxw	2
+宁	ps	10
+神	pyj	2
+我	q	6
 希	qdmh	2
 猎月人	qeww	2
 尔	qi	2
 猎	qta	2
 希诺宁	qyps	2
+的	r	10
+提瓦特大陆	rgtb	2
 后续	rgxf	2
-提	rj	2
+提	rj	4
 提米	rjoy	2
 拉	ru	10
 要	s	2
 丁	sgh	2
-西	sghg	20
+西	sghg	26
+西妲	sgvj	2
 西风	sgwr	2
 可	sk	8
 可莉	skat	2
+枫丹战舰	smht	2
 森	sss	2
 松	swc	2
 西风骑士	swcf	2
+枫	swr	4
 我还没上	tdih	4
+我还没上车啊	tdik	2
 我还没	tdiw	2
+舰	tem	6
+特	tff	2
+自	th	2
 怎么	thtc	2
 特	trf	14
 笔	tt	2
 入	ty	2
 关	ud	2
 关瑞	udgm	4
+斗	uf	2
+决	unw	2
+决斗代理人	uuww	2
 那	vfb	2
 娅	vgo	10
-妲	vjg	18
-娜	vvf	12
+妲	vjg	28
+妲宝	vjpg	2
+灵	vo	2
+娜	vvf	16
 娜	vvfb	2
 那维莱特	vxat	4
 始终如一	vxvg	4
 娜维娅	vxvg	2
-人	w	2
+人	w	4
+代	wa	2
 他	wb	2
 你吃过吗	wkfk	2
 你	wq	2
@@ -110,7 +148,14 @@
 风	wr	2
 从	ww	4
 侳	wwwf	2
-纳	xmw	14
+华	wxf	2
+纳塔战舰	xfht	2
+绫	xfw	2
+纯	xg	8
+纯水的精怪	xirn	2
+纯水的	xirq	2
+纯水的精灵	xirv	2
+纳	xmw	16
 纳西妲	xsvj	4
 维	xwy	12
 维	xwyg	2
@@ -127,7 +172,9 @@
 芙宁	encafps	0
 䕀要	encafsv	1
 莱特	encagtr	0
+芙宁娜	encapvn	0
 芙宁娜	encapvv	0
+芙宁娜西妲	encapvv	0
 艾尔海森	encaqis	0
 艾尔海	encaqit	0
 艾尔	encaqqi	0
@@ -142,62 +189,123 @@
 骑士	enccgfg	0
 巴赫	enccnfo	0
 迈巴赫	encdcfo	0
+大陆	encddbg	0
 还没	encdhiw	0
 还没上	encdihg	0
+还没上车啊	encdihk	0
 还没上车	encdihl	0
+达国际	encdlbf	0
 迈巴	encdncn	0
+达国	encdplg	0
 月人	enceeww	0
+塔战	encfahk	0
+塔战舰	encfhte	0
 过吗	encfpkc	0
 需要怎么	encfstt	0
 玛薇卡	encgahh	0
 玛薇	encgcat	0
+万达国际	encgdlb	0
+万达国	encgdlg	0
 五笔	encggtt	0
 瑞瑞关瑞	encggug	0
+理人	encgjww	0
 瑞瑞	encgmgm	0
+瓦特	encgntf	0
 班尼特	encgntr	0
+万达	encgqdp	0
+瓦特大陆	encgtdb	0
+瓦特大	encgtdd	0
 五笔输入	encgtlt	0
 五笔输	encgtlw	0
 瑞关瑞	encgugm	0
+理人决斗代理人	encgwuw	0
 班尼	encgynx	0
 上车	enchglg	0
+战舰	enchkte	0
 上车啊	enchlkb	0
 池子	encibbb	0
 没上车	encihlg	0
 没上车啊	encihlk	0
+水的	enciirq	0
+水的精	encirog	0
+水的精怪	enciron	0
+水的精灵	encirov	0
+注释芙	encitaf	0
+注释芙宁	encitap	0
+注释芙宁娜	encitav	0
 海森	encitss	0
 没上	enciwhg	0
+里绫	encjfxf	0
+里绫华神里绫华自己玩	encjxwg	0
+里绫华神里绫华自己	encjxwn	0
+里绫华神里绫华自	encjxwt	0
+里绫华神里绫华	encjxww	0
+里绫华	encjxwx	0
 吃过吗	enckfkc	0
 吃过	encktfp	0
+国际	enclgbf	0
 车啊	enclgkb	0
 田宝	encllpg	0
 田宝田宝	enclplp	0
 输入法	encltif	0
 输入	enclwty	0
+丹战舰	encmhte	0
+丹战	encmyhk	0
+己玩	encnngf	0
 尼可火	encnsoo	0
 尼可	encnxsk	1
 尼特	encnxtr	0
 火花骑士	encoacf	0
 火花骑	encoacg	0
+精怪	encognc	0
+精灵	encogvo	0
 火花	encooaw	0
+神里绫	encpjxf	0
+神里绫华神里绫华自己玩	encpjxg	0
+神里绫华自己玩	encpjxg	0
+神里绫华神里绫华自己	encpjxn	0
+神里绫华自己	encpjxn	0
+神里绫华神里绫华自	encpjxt	0
+神里绫华自	encpjxt	0
+神里绫华	encpjxw	0
+神里绫华神里绫华	encpjxw	0
 宝田宝	encplpg	0
+宁娜	encpsvn	0
 宁娜	encpsvv	0
+神里	encpyjf	0
 希诺	encqdya	0
 猎月人	encqeww	0
 尔海	encqiit	0
 尔海森	encqiss	0
 猎月	encqtee	0
 希诺宁	encqyps	0
+提瓦特大陆	encrgtb	0
+提瓦特大	encrgtd	0
+提瓦特	encrgtf	0
+提瓦	encrjgn	0
 提米	encrjoy	0
+的精怪	encronc	0
+的精灵	encrovo	0
+的精	encrqog	0
 拉莉	encruat	0
 后续需要	encrxfs	0
 可莉可莉	encsasa	0
 西妲	encsgvj	0
 可莉	encskat	0
+枫丹战	encsmhk	0
+枫丹战舰	encsmht	0
 西风骑士	encswcf	0
+枫丹	encswmy	0
+特大陆	enctdbg	0
 我还没上	enctdih	0
+我还没上车啊	enctdik	0
+我还没上车	enctdil	0
 我还没	enctdiw	0
+特大	enctfdd	0
+自己	encthnn	0
 笔输入法	enctlti	0
 笔输入	enctlty	0
+自己玩	enctngf	0
 特拉莉	enctrat	0
 我还	enctrdh	0
 特拉	enctrru	0
@@ -205,25 +313,65 @@
 笔输	encttlw	0
 入法	enctyif	0
 关瑞	encudgm	0
+斗代	encufwa	0
 关瑞瑞	encuggm	0
 关瑞关瑞	encugug	0
+决斗	encunuf	0
+决斗代	encuuwa	0
+决斗代理	encuuwg	0
+决斗代理人	encuuww	0
+决斗代理人决斗代理人	encuuww	0
+斗代理	encuwgj	0
+斗代理人	encuwgw	0
+斗代理人决斗代理人	encuwgw	0
 妲芙宁娜	encvapv	0
 娜芙宁娜	encvapv	0
 那维	encvfxw	0
+妲宝	encvjpg	0
+妲宝我还	encvptd	0
+妲宝我还没上	encvpth	0
+妲宝我还没	encvpti	0
+妲宝我还没上车啊	encvptk	0
+妲宝我还没上车	encvptl	0
+妲宝我	encvptr	0
 娜维	encvvxw	0
 那维莱	encvxag	0
 那维莱特	encvxat	0
 娜维娅	encvxvg	0
+代理	encwagj	0
+代理人	encwgww	0
+代理人决斗代理人	encwgww	0
 你吃过吗	encwkfk	0
 你吃过	encwkfp	0
+华神里绫华自己玩	encwpjg	0
+华神里绫华自己	encwpjn	0
+华神里绫华自	encwpjt	0
+华神里绫华	encwpjw	0
 人猎月人	encwqew	0
 你吃	encwqkt	0
 风骑	encwrcg	0
+人决斗代理人	encwuuw	0
 从从侳	encwwww	1
 维莱特	encxatr	0
+纳塔战	encxfhk	0
+纳塔战舰	encxfht	0
+绫华	encxfwx	0
+纯水	encxgii	0
+纯水的精灵纯水	encxiri	0
+纯水的精怪	encxirn	0
+纯水的精	encxiro	0
+纯水的	encxirq	0
+纯水的精灵纯水的	encxirr	0
+纯水的精灵	encxirv	0
+纯水的精灵纯	encxirx	0
+纳塔	encxmfa	0
 纳丁	encxmsg	0
 纳西	encxmsg	0
 纳西妲	encxsvj	0
 维莱	encxwag	0
+绫华神里绫华自己玩	encxwpg	0
+绫华神里绫华自己	encxwpn	0
+绫华神里绫华自	encxwpt	0
+绫华神里绫华	encxwpw	0
 维娅	encxwvg	0
 诺宁	encyaps	0
