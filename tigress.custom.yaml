@@ -12,9 +12,9 @@ patch:
   #style/layout/border_width: 2 #边框宽度，默认是0
   #style/layout/border_height: 2 #边框高度，默认是0
 
-  menu/page_size: 10 # 自定义候选个数，可修改。若要改成5个，行首加上#号注释即可（Rime默认就是5个）
+  menu/page_size: 30 # 自定义候选个数，可修改。若要改成5个，行首加上#号注释即可（Rime默认就是5个）
+  style/horizontal: true # 默认是false竖排显示，删掉行首的#号，可横排显示（横排建议把上面这行注释掉）
 
-  #style/horizontal: true # 默认是false竖排显示，删掉行首的#号，可横排显示（横排建议把上面这行注释掉）
   #style/layout/candidate_spacing: 17 #候选框改为横排后,增加 候选与候选 的间距
   #style/layout/hilite_spacing: 8  #候选框改为横排后,增加 标号与候选 的间距
   #style/layout/min_width: 85  #候选框改为横排后,增加最小宽度
@@ -24,7 +24,7 @@ patch:
   # 以下是备选样式（自行删除#号即可生效，只能生效一种）
   #menu/alternative_select_labels: [ ①,②,③,④,⑤,⑥,⑦,⑧,⑨,⑩ ]
   #menu/alternative_select_labels: [ ❶,❷,❸,❹,❺,❻,❼,❽,❾,❿ ]
-  #menu/alternative_select_labels: [ ⓵,⓶,⓷,⓸,⓹,⓺,⓻,⓼,⓽,⓾ ]〈菜单项〉
+  #menu/alternative_select_labels: [ ⓵,⓶,⓷,⓸,⓹,⓺,⓻,⓼,⓽,⓾ ]
   #menu/alternative_select_labels: [ ㊀,㊁,㊂,㊃,㊄,㊅,㊆,㊇,㊈,㊉ ]
   #menu/alternative_select_labels: [ ㈠,㈡,㈢,㈣,㈤,㈥,㈦,㈧,㈨,㈩ ]
   #menu/alternative_select_labels: [ 🀇,🀈,🀉,🀊,🀋,🀌,🀍,🀎,🀏,🀄 ]
@@ -33,8 +33,9 @@ patch:
   #menu/alternative_select_labels: [ Ⓐ,Ⓑ,Ⓒ,Ⓓ,Ⓔ,Ⓕ,Ⓖ,Ⓗ,Ⓘ,Ⓙ ]
   #menu/alternative_select_labels: [ ⓐ,ⓑ,ⓒ,ⓓ,ⓔ,ⓕ,ⓖ,ⓗ,ⓘ,ⓙ ]
 
-  #style/preedit_type: preview # 嵌入首选项内容(字词)。有4个选项可设：input 嵌入输入码 | composition 嵌入编码 | preview 嵌入首选项 | preview_all 嵌入全部内容
+  #style/preedit_type: preview # 嵌入首选项内容(字词)。有4个选项可设：input 嵌入输入码 | composition 嵌入编码 | preview 嵌入首选项 | preview_all 嵌入全部内容 
   #style/layout/margin_y : -1 # 启用后可隐藏候选框(盲打)，建议配合上面的嵌入首选项，一起使用
+
 
   #style/inline_preedit: false # 嵌入编码模式，默认是true开启，若想关闭，取消注释即可（删除前面的#号）
 
@@ -61,57 +62,3 @@ patch:
   #style/comment_font_face: LXGW WenKai GB Screen R
   #style/label_font_face: LXGW WenKai GB Screen R
 
-  # 去除拼音滤镜的括号，如对括号有需求，可在下面5行前面加上#号注释掉
-  pinyin/comment_format:
-    - "xform/&nbsp;/ /"
-    - "xform/^/ /"
-    - "xform/（//"
-    - "xform/）//"
-  # 也可自己把 （ 替换成别的，比如 'xform/（/〔/'
-
-  switches: # 0 默认关，1 默认开
-    - name: ascii_mode
-      reset: 0
-      states: [中文, 西文] #中英文状态
-    - name: extended_char #自定义字集
-      reset: 1
-      states: [全集, 常用]
-    - name: pinyin #拼音滤镜
-      reset: 0
-      states: [拼, pīn]
-    - name: ascii_punct
-      reset: 0
-      states: [。，, ．，]
-    - options: [_keyboard_default, _keyboard_defaultzj]
-      reset: 0
-      states: [助记关, 助记开]
-    - name: chaifen
-      reset: 0
-      states: [拆隐, 拆显]
-    - name: emoji_cn #emoji滤镜
-      reset: 0
-      states: [🈚, 🈶]
-    # - options: [ gb2312, gbk, utf8 ]
-    #   states: [ gb2312, GBK, UTF-8 ]
-    #   reset: 0
-    - name: simplification #简转繁滤镜
-      reset: 0
-      states: [简中, 繁中]
-    # - name: fanjian  #繁转简滤镜
-    #   reset: 0
-    #   states: [ 反繁, 反简 ]
-    # - name: dz_ci  #过滤词组
-    #   reset: 0
-    #   states: [ 词组, 单字 ]
-    - name: full_shape
-      reset: 0
-      states: [半角, 全角]
-    - options: [_keyboard_default, _keyboard_defaultbk, _keyboard_defaultwk]
-      reset: 0
-      states: [有刻, 半刻, 无刻]
-    - name: charset_comment_filter #字符集提示
-      reset: 0
-      states: [U区关, U区开]
-    - name: udpf_switch
-      reset: 0
-      states: [U编关, U编开]
