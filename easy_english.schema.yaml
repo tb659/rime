@@ -81,7 +81,7 @@ punctuator:
 
 # key_binder:
 menu:
-  page_size: 5 #候选数量
+#  page_size: 30 #候选数量
 
 recognizer:
   import_preset: default

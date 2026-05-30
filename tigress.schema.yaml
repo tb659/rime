@@ -28,24 +28,15 @@ switches: # 0 默认关，1 默认开
   - name: chaifen
     reset: 0
     states: [拆隐, 拆显]
-  # - options: [ gb2312, gbk, utf8 ]
-  #   states: [ gb2312, GBK, UTF-8 ]
-  #   reset: 0
   - name: emoji_cn #emoji滤镜
     reset: 0
     states: [🈚, 🈶]
   - name: simplification #简转繁滤镜
     reset: 0
     states: [简中, 繁中]
-  # - name: fanjian  #繁转简滤镜
-  #   reset: 0
-  #   states: [ 反繁, 反简 ]
   - name: full_shape
     reset: 0
     states: [半角, 全角]
-  # - name: dz_ci  #过滤词组
-  #   reset: 0
-  #   states: [ 词组, 单字 ]
   - options: [_keyboard_default, _keyboard_defaultbk, _keyboard_defaultwk]
     reset: 0
     states: [有刻, 半刻, 无刻]
@@ -115,15 +106,15 @@ engine:
     - reverse_lookup_filter@reverse_lookup # 反查词典滤镜
 
 speller:
-  alphabet: "[;'zyxwvutsrqponmlkjihgfedcba]" # 定义本方案输入键
+  alphabet: "[zyxwvutsrqponmlkjihgfedcba]" # 定义本方案输入键
   auto_clear: max_length # 3种选择， manual|auto|max_length 空码按下一键确认清屏|空码自动清|达到最长码时后码顶上清屏
   auto_select: true # 自动上屛〔true或false〕
   max_code_length: 4 # 形码最大码长，超过则顶字上屛〔number〕
-  # initials: "abcdefghijklmnopqrstuvwxyz;'" # 定义仅限作始码之键
-  # finals: "abcdefghijklmnopqrstuvwxyz;'" # 定义仅限作末码之键
+  # initials: "abcdefghijklmnopqrstuvwxyz;'" # 定义仅限作始码之键 形码（虎码）一般用不到这两个选项，所以注释掉了。它们主要用于拼音类方案，比如限制声母只能出现在开头、韵母只能出现在结尾。
+  # finals: "abcdefghijklmnopqrstuvwxyz;'" # 定义仅限作末码之键 形码（虎码）一般用不到这两个选项，所以注释掉了。它们主要用于拼音类方案，比如限制声母只能出现在开头、韵母只能出现在结尾。
   # use_space: true # 以空格作输入码〔true或false〕
   # delimiter: " '" # 上屛时的音节间分音符
-  auto_select_pattern: ^;\w+ # 自动上屏规则  对 [;] 引导的编码实行候选唯一自动上屏
+  #  auto_select_pattern: ^;\w+ # 自动上屏规则  对 [;] 引导的编码实行候选唯一自动上屏
   # 若要添加四码上屏功能，在  ^;\w+ 后面 加上  |^\w{4}$  即可
 
 translator:
@@ -333,10 +324,6 @@ key_binder:
 # 标点符号
 punctuator:
   import_preset: symbols # 由外部统一文件导入
-
-menu:
-  page_size: 9 #候选数量
-  alternative_select_labels: [㊀, ㊁, ㊂, ㊃, ㊄, ㊅, ㊆, ㊇, ㊈] #自定义候选序号显示符
 
 # segmentors/affix_segmentor 临时英文
 easy_english:
