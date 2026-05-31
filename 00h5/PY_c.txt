@@ -1,0 +1,8 @@
+# Rime table
+#@/db_name	PY_c.txt
+#@/db_type	tabledb
+#@/rime_version	1.5.3
+#@/tick	3
+方法	fang fa	2
+全球	quan qiu	2
+怎么	zen me	2

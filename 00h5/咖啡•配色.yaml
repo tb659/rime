@@ -1,0 +1,131 @@
+preset_color_schemes:
+  default:
+    name: 咖啡·歆然
+    author: 咖啡·资源来自搜狗
+    #悬浮窗
+    text_color: 0xff525993 #编码色
+    text_back_color: 0xffEBEBEB
+    hilited_back_color: 0x00 #高亮编码背景
+    #候选栏
+    candidate_back_color: kafei/xrhxl.png
+    back_color: 0xffEBEBEB #候选栏背景#底色色值，下巴色可设置此值
+    hilited_candidate_text_color: 0xff7ECD65 #高亮候选文字（包括悬浮窗候选）
+    comment_text_color: 0xff696FA1 #候选项注释=候选文字
+    #键盘
+    key_text_color: 0xff525993
+    hilited_key_text_color: 0xff525993 #高亮按键文字
+    key_back_color: kafei/xrzm.9.png #按键背景
+    hilited_key_back_color: kafei/xrzma.9.png #高亮按键背景
+    key_symbol_color: 0xff696FA1 #按键符号
+    hilited_key_symbol_color: 0xff696FA1 #高亮按键符号
+    #上档
+    off_key_back_color: kafei/xrsh.png #功能键背景图/色=按键背景
+    hilited_off_key_back_color: kafei/xrsha.png #功能键高亮背景图/色（按下时）=高亮按键背景
+    on_key_back_color: kafei/xrshl.png #shift键锁定时背景图/色=高亮按键背景
+    hilited_on_key_back_color: kafei/xrshla.png #shift键锁定时的高亮背景图/色（按下时）=高亮按键背景
+    off_key_text_color: 0x00 #功能键文字=按键文字
+    hilited_off_key_text_color: 0x00 #功能键高亮文字（按下时）=高亮按键文字
+    on_key_text_color: 0x00 #shift键锁定时文字=高亮按键文字
+    hilited_on_key_text_color: 0x00 #shift键锁定时的高亮文字（按下时）=高亮按键文字
+    #空格
+    Space_back_color: kafei/xrkg.png
+    hilited_Space_back_color: kafei/xrkga.png
+    Space_text_color: 0x00
+    hilited_Space_text_color: 0x00
+    #删除
+    Back_back_color: kafei/xrsc.png #退格=功能键
+    hilited_Back_back_color: kafei/xrsca.png
+    hilited_Back_text_color: 0x00
+    Back_text_color: 0x00
+    #回车
+    Return_back_color: kafei/xrhc.png #回车=功能键
+    Return_text_color: 0x00
+    hilited_Return_back_color: kafei/xrhca.png
+    hilited_Return_text_color: 0x00
+    #符号1
+    Symbol_back_color: kafei/xrcd.png
+    hilited_Symbol_back_color: kafei/xrcda.png
+    Symbol_text_color: 0x00
+    hilited_Symbol_text_color: 0x00
+    #符号2（左2键）
+    Symbol2_back_color: kafei/xrgn.9.png #符号1=功能键
+    Symbol2_text_color: 0xff525993
+    hilited_Symbol2_back_color: kafei/xrgna.9.png 
+    hilited_Symbol2_text_color: 0xff525993
+    #常用键盘上档位置
+    fh_kb: kafei/xrfh.png
+    fh_ka: kafei/xrfha.png
+    fh_tb: 0xffffffff
+    fh_ta: 0xffffffff
+    #符号键盘上档位置
+    cy_kb: kafei/xrfh.png
+    cy_ka: kafei/xrfha.png
+    cy_tb: 0xffffffff
+    cy_ta: 0xffffffff
+    #数字键盘
+    Sz_back_color: kafei/xrszfh.9.png
+    hilited_Sz_back_color: kafei/xrszfha.9.png 
+    Sz_back_back_color: kafei/xrszfh.png
+    hilited_Sz_back_back_color: kafei/xrszfha.png
+    Sz_kg_back_color: kafei/xrszkg.png
+    hilited_Sz_kg_back_color: kafei/xrszkga.png 
+    Sz_sc_back_color: kafei/xrszsc.png
+    hilited_Sz_sc_back_color: kafei/xrszsca.png
+    Sz_hc_back_color: kafei/xrszhc.png
+    hilited_Sz_hc_back_color: kafei/xrszhca.png
+    Sz_jx_back_color: xrzm.9.png
+    hilited_Sz_jx_back_color: xrzma.9.png
+    #
+    hilited_back_color: 0x00
+    Symbol_symbol_color: 0x00
+    hilited_Symbol_Symbol_color: 0x00
+    Symbol2_symbol_color: 0x00
+    hilited_Symbol2_Symbol_color: 0x00
+    Return_symbol_color: 0x00
+    hilited_Return_Symbol_color: 0x00
+    m_b: kafei/xrgn.9.png
+    m_a: kafei/xrgna.9.png
+    m_kf: 0xff696FA1
+    m_kfa: 0xff696FA1
+    key_font: xr.ttf
+    symbol_font: xr.ttf
+
+  kfa04:
+    name: 咖啡·简•◉
+    author: 咖啡·资源来自森林集
+    #悬浮窗
+    text_color: 0xFFFFFFFF #编码色
+    hilited_back_color: 0x00 #高亮编码背景
+    #候选栏
+    back_color: 0xff2A2F33 #候选栏背景#底色色值，下巴色可设置此值
+    hilited_candidate_text_color: 0xff80AEFF #高亮候选文字（包括悬浮窗候选）
+    comment_text_color: 0xffC3C4C6 #候选项注释
+    #键盘
+    hilited_key_text_color: 0xFFFFFFFF #高亮按键文字
+    key_back_color: kafei/wx01.9.png #按键背景
+    hilited_key_back_color: kafei/wx02.9.png #高亮按键背景
+    key_symbol_color: 0xffC3C4C6 #按键符号
+    hilited_key_symbol_color: 0x00 #高亮按键符号
+    #功能键
+    off_key_back_color: kafei/wx03.9.png #功能键背景图/色
+    hilited_off_key_back_color: kafei/wx04.9.png #功能键高亮背景图
+    on_key_back_color: kafei/wx05.9.png #shift键锁定时背景图/色=高亮按键背景
+    hilited_on_key_back_color: kafei/wx04.9.png #shift键锁定时的高亮背景图/色
+    on_key_text_color: 0xFFFFFFFF #shift键锁定时文字=高亮按键文字
+    #回车键
+    Return_back_color: kafei/wx05.9.png
+    hilited_Return_back_color: kafei/wx06.9.png
+    Return_text_color: 0xFFFFFFFF
+    hilited_Return_text_color: 0xFFFFFFFF
+    Return_symbol_color: 0xFFFFFFFF
+    hilited_Return_Symbol_color: 0xFFFFFFFF
+    hilited_back_color: 0x00
+    hilited_key_symbol_color: 0x00
+    Symbol_symbol_color: 0x00
+    hilited_Symbol_Symbol_color: 0x00
+    Symbol2_symbol_color: 0x00
+    hilited_Symbol2_Symbol_color: 0x00
+    Return_symbol_color: 0x00
+    hilited_Return_Symbol_color: 0x00
+    m_kf: 0xff444444
+    m_kfa: 0xff444444

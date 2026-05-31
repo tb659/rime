@@ -1,0 +1,12 @@
+[
+    {
+        "name": "查看日志",
+        "time": 1771825970118,
+        "list": [
+            "tools\/查看日志\/init.lua",
+            "tools\/查看日志\/res\/string\/init.lua",
+            "tools\/查看日志\/res\/layout\/main.lua",
+            "tools\/查看日志\/main.lua"
+        ]
+    }
+]
