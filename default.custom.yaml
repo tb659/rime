@@ -14,12 +14,6 @@ patch:
     Shift_L: commit_code
     Shift_R: commit_code
   schema_list:
+    - { schema: PY_c }
     - { schema: tiger }
     - { schema: tigress }
-    - { schema: PY_c }
-  "switcher/hotkeys":
-    # - "Control+grave"
-    - "Control+F8"
-
-  "menu/page_size": 10
-  "menu/alternative_select_labels": [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
