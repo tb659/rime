@@ -37,9 +37,6 @@ switches: # 0 默认关，1 默认开
   - name: full_shape
     reset: 0
     states: [半角, 全角]
-  - options: [_keyboard_default, _keyboard_defaultbk, _keyboard_defaultwk]
-    reset: 0
-    states: [有刻, 半刻, 无刻]
   - name: charset_comment_filter #字符集提示
     reset: 0
     states: [U区关, U区开]
@@ -106,7 +103,7 @@ speller:
   alphabet: "[zyxwvutsrqponmlkjihgfedcba]" # 定义本方案输入键
   auto_clear: max_length # 3种选择， manual|auto|max_length 空码按下一键确认清屏|空码自动清|达到最长码时后码顶上清屏
   auto_select: true # 自动上屛〔true或false〕
-  max_code_length: 4 # 形码最大码长，超过则顶字上屛〔number〕
+  max_code_length: 99 # 形码最大码长，超过则顶字上屛〔number〕
   # initials: "abcdefghijklmnopqrstuvwxyz;'" # 定义仅限作始码之键
   # finals: "abcdefghijklmnopqrstuvwxyz;'" # 定义仅限作末码之键
   # use_space: true # 以空格作输入码〔true或false〕
@@ -122,7 +119,7 @@ translator:
   encode_commit_history: false # 是否对已上屛词自动成词〔仅table_translator有效〕
   max_phrase_length: 4 # 最大自动成词词长〔仅table_translator有效〕
   enable_user_dict: false # 是否开启用户搜索〔用户记录动态词频、用户词搜索〕
-  enable_completion: false # 提前显示尚未输入完整码的字〔仅table_translator有效〕
+  enable_completion: true # 提前显示尚未输入完整码的字〔仅table_translator有效〕
   enable_correction: false # 实现自动纠错〔仅script_translator有效〕
   comment_format: # 提示代码自定义
     - "xform/~/ /" # 去掉编码提示前的~号
