@@ -15,6 +15,8 @@ patch:
   engine/translators/@before 0: lua_translator@*user_predict*T  # 注入占位符生成预测候选
   engine/filters/@before 0: lua_filter@*user_predict*F          # 输入过程中根据预测调频
 
+  sync_dir: 'C:\Users\Administrator\AppData\Roaming\Rime\rime-sync'
+
   user_predict:
     db_name: predict                      # LevelDB 数据库名称
     max_candidates: 100                   # 每次最多显示几个预测候选
