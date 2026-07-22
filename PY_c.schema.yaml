@@ -93,7 +93,7 @@ engine:
     - history_translator@historySJ # 历史上屏 手机  
     - lua_translator@number_translator # 数字转大写
     - lua_translator@calculator_translator # 简易计算器
-    - lua_translator@shijian2_translator # 高级时间
+    - lua_translator@shijian_translator # 高级时间
 
 
   filters:
@@ -145,7 +145,7 @@ translator:
   enable_user_dict: true # 开启用户词典〔用户词典记录动态字词频、用户词〕
   enable_encoder: true # 开启自动造词
   strict_spelling: false
-  enable_sentence: false # 是否开启自动造句
+  enable_sentence: true # 是否开启自动造句
   enable_completion: false # 编码提示 true 开启  false 关闭
   encode_commit_history: true # 是否对已上屏的词自动造词
   max_phrase_length: 99  #自动造词的最长字数

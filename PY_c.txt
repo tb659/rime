@@ -1,0 +1,15 @@
+# Rime table
+#@/db_name	PY_c
+#@/db_type	tabledb
+#@/rime_version	1.13.1
+#@/tick	10
+光亮	guang liang	2
+黄	huang	2
+解	jie	2
+杰出	jie chu	2
+良	liang	2
+伦	lun	2
+你好	ni hao	2
+品	pin	2
+源	yuan	2
+周	zhou	2

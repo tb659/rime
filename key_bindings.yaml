@@ -48,7 +48,7 @@
 # accept和send可用字段除A-Za-z0-9外，还包含以下键 上面实际有的键：
 
 # Caps_Lock 大写锁           space                 KP_Space 小键盘空格
-# Shift_Lock 上档锁          exclam !              KP_Tab 小键盘水平定位符
+# Shift_Lock 上档锁          exclam	!             KP_Tab 小键盘水平定位符
 # Scroll_Lock 滚动锁         quotedbl "            KP_Enter 小键盘回车
 # Num_Lock 小键盘锁          numbersign #           KP_Delete 小键盘删除
 # Select 选定               dollar $               KP_Home 小键盘原位
@@ -92,34 +92,3 @@
 # Super_R 右Super
 # Hyper_L 左Hyper
 # Hyper_R 右Hyper
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
