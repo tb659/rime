@@ -1,0 +1,6 @@
+# Rime user dictionary
+#@/db_name	predict
+#@/db_type	userdb
+#@/rime_version	1.13.1
+#@/tick	1
+#@/user_id	92d7d9af-ecbb-42bd-8a82-138380b3cef6
