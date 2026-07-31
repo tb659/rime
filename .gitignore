@@ -37,3 +37,5 @@ settings.json
 # /*.txt
 # /*.custom.yaml
 *.DS_Store
+
+sync/
