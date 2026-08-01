@@ -1,6 +1,0 @@
-# Rime user dictionary
-#@/db_name	shared_trime
-#@/db_type	userdb
-#@/rime_version	1.13.1
-#@/tick	0
-#@/user_id	92d7d9af-ecbb-42bd-8a82-138380b3cef6
